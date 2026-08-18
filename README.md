@@ -4,7 +4,7 @@ This public repository contains only signed update metadata and binary delta pac
 
 公開しているのは、インストール済みVRLogを更新するための署名済みフィードと差分パッケージだけです。初回インストールに必要な完全なSetup EXE、完全パッケージ、VRLog.exe、DLL、ポータブル版、ソースコードは含みません。
 
-Current feed / 現在の配信版: **VRLog 0.0.40**
+Current feed / 現在の配信版: **VRLog 0.0.41**
 
 ## Files
 
