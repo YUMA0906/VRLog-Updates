@@ -10,6 +10,10 @@ This public repository contains only signed update metadata and binary delta pac
 - `releases.win.json.sig`: Minisign-compatible signature for the metadata
 - `*-delta.nupkg`: binary changes that require the matching installed base version
 
+Every published release edge is retained. A client that skipped releases downloads all newer deltas in release order, reconstructs the newest full package locally, and verifies its SHA-256 before replacing the installed version. A missing, duplicate, or corrupt edge stops the update without replacing the currently installed app.
+
+公開した各版間の差分はすべて保持します。途中の版を飛ばしたPCは、インストール版より新しい差分を公開順に取得し、最新版の完全パッケージをローカル復元してSHA-256を検証します。差分の欠落・重複・破損がある場合は、現在のアプリを置き換えず更新だけを中止します。
+
 The delta files are not standalone applications and cannot install or launch VRLog without the matching base product. Public availability does not grant a license to redistribute, reverse engineer, modify, sublicense, or create a competing product. VRLog's EULA and each third-party component's own license continue to apply.
 
 差分単体はアプリではなく、対応する完全版がなければインストールも起動もできません。この公開はVRLog本体の再配布、解析、改変、再許諾、競合製品への利用を許可するものではありません。VRLogのEULAと第三者コンポーネント固有のライセンスが適用されます。
