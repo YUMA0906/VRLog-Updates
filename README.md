@@ -4,8 +4,8 @@ VRLogの無料配布と自動更新用リポジトリです。最新版の完全
 
 ## 最新版
 
-- バージョン: `0.0.65`
-- インストーラー: `VRLog-0.0.65-Installer-UNSIGNED.exe`
+- バージョン: `0.0.66`
+- インストーラー: `VRLog-0.0.66-Installer-UNSIGNED.exe`
 - SHA-256: Releaseの `SHA256SUMS.txt`
 
 このプレビュー配布物には、信頼済みCAによるWindows Authenticode署名がありません。Windowsが発行元を確認できない、又は実行を止める場合があります。Smart App Control、SmartScreen、ウイルス対策を無効化せず、取得元とSHA-256を確認してください。
